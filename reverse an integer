@@ -1,0 +1,17 @@
+import java.util.*;
+
+class test{
+
+public static void main (String[] args)
+{
+int x = 12345678;
+int ans = 0;
+while(x!=0)
+{
+int remainder = x % 10;
+ans = (ans*10)+remainder;
+x=x/10
+}
+System.out.println("The reverse of the given number is: " + ans);  
+
+}
